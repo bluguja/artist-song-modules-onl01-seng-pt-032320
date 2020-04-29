@@ -3,10 +3,10 @@ require_relative '../lib/concerns/memorable'
 module Memorable
   
   def reset_all
-    all.clear
+    clear
   end
 
   def count
-    all.count
+    count
   end
 end
