@@ -3,7 +3,10 @@ require 'pry'
 class Artist
   attr_accessor :name
   attr_reader :songs
-  extend 
+  
+  extend reset_all
+  extend count
+  
   @@artists = []
 
   def initialize
