@@ -21,7 +21,7 @@ class Artist
   def self.all
     @@artists
   end
-
+# we do not need these two methods count and reset since its defined in our memorable Module due to duplication
   # def self.reset_all
   #   self.all.clear
   # end
