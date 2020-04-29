@@ -3,6 +3,9 @@ require 'pry'
 class Song
   attr_accessor :name
   attr_reader :artist
+  
+  extend reset_all
+  extend count
 
   @@songs = []
 
